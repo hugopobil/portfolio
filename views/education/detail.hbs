@@ -1,0 +1,36 @@
+<div class="education__container">
+    <div class="return__button__container">
+        <div class="return__button__experience">
+            <a href="/education">Return to Educations</a>
+        </div>
+    </div>
+
+
+    <div class="education__card">
+        <div class="education__card__image">
+            <img src="{{education.image}}" alt="image">
+        </div>
+        <div class="education__card__content">
+            <p class="education__card__institution">{{education.institution}}</p>
+            <p class="education__card__course">{{education.course}}</p>
+            <p class="education__card__dates">{{education.startDate}} - {{education.endDate}}</p>
+            <p class="education__card__location">{{education.location}}</p>
+            <div class="education__card__tech_stack">
+                {{#each education.tech_stack}}
+                <div class="div">
+                    <a href="#">{{this}}</a>
+                </div>
+
+                {{/each}}
+            </div>
+            <p class="education__card__responsibilities">
+            <ul>
+                {{#each education.responsibilities}}
+                <li>{{this}}</li>
+                <br>
+                {{/each}}
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
