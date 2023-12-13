@@ -1,0 +1,94 @@
+{
+    "education": [
+        {
+            "institution" : "Ironhack",
+            "course" : "Full Stack Development Course",
+            "tech_stack" : [
+                "HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB", "React"
+            ],
+            "description" : "Web Development Bootcamp Course",
+            "responsibilities" : [
+                "Developing full-stack web applications",
+                "Working in a team of 3 people to develop a full-stack web application",
+                "Working with aprint and agile methodologies",
+                "Developing a final project using MERN stack"
+            ],
+            "startDate" : "1st Sept 2022",
+            "endDate" : "31st March 2023",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/ironhack.png"
+        },
+        {
+            "institution" : "CUNEF",
+            "course" : "Master's Degree in Data Science",
+            "tech_stack" : [
+                "Python", "SQL", "Tableau", "Power BI", "Machine Learning", "Deep Learning", "ArcGIS", "Git"
+            ],
+            "description" : "Master's Degree in Data Science",
+            "responsibilities" : [
+                "Final project based in cryptocurrency investment strategy using NLP applied to social media",
+                "Natural Lenguage Processing, Generative Techniques, Sentiment Analysis, Topic Modeling, Word Embeddings, etc.",
+                "Time Series Algorithms, ARIMA, SARIMA, VAR, LSTM, etc.",
+                "Advance Statistics, Hypothesis Testing, A/B Testing, etc.",
+                "Data Visualization, Tableau, Power BI, etc."
+            ],
+            "startDate" : "1st Sept 2021",
+            "endDate" : "31st July 2022",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/cunef.png"
+        },
+        {
+            "institution" : "Wharton School of the University of Pennsylvania",
+            "course" : "Business Analytics",
+            "tech_stack" : [
+                "Python", "R", "SQL"
+            ],
+            "description" : "Online course to learn fundamentals on business insights with use of statistics, data and analytics to improve business performance",
+            "responsibilities" : [
+                "Develop analytics-based solutions to business challenges",
+                "Research and analyze data using Excel, Python and R",
+                "Presentation of data insights to stakeholders"  
+            ],
+            "startDate" : "1st Sept 2021",
+            "endDate" : "31st July 2022",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/wharton.png"
+        },
+        {
+            "institution" : "CUNEF",
+            "course" : "Master's in Finance",
+            "tech_stack" : [
+                "Excel", "VBA","Python","SQL", "Quantitative Finance"
+            ],
+            "description" : "Master's in Finance",
+            "responsibilities" : [
+                "Final project on a systematic investment strategy based on the Fama-French 3 Factor Model using ESG data",
+                "Financial markets and products (Equities, Fixed Income, Derivatives, etc.)",
+                "Economic and regualtory policy (Monetary Policy, Fiscal Policy, etc.)",
+                "Pricing and valuation methodologies for fixed and variable income products"  
+            ],
+            "startDate" : "1st Sept 2020",
+            "endDate" : "31st July 2021",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/cunef.png"
+        },
+        {
+            "institution" : "IE University",
+            "course" : "Bachelor's Degree in Business Administration",
+            "tech_stack" : [
+                "Excel", "VBA", "SQL", "Power BI", "Office 365"
+            ],
+            "description" : "Bachelor's Degree in Business Administration",
+            "responsibilities" : [
+                "Final project on investment location for international comapny (Tesla)",
+                "Marketing and Sales, Finance, Accounting, Economics, etc.",
+                "Presentaion and communication skills"  
+            ],
+            "startDate" : "1st Sept 2016",
+            "endDate" : "31st July 2020",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/ie.png"
+        }
+        
+    ]
+}

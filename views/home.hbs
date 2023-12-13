@@ -1,0 +1,55 @@
+<div class="home__container">
+    <div class="home__profile__picture">
+        <img src="/img/profile_picture.jpg" alt="profile_picture">
+    </div>
+    <div class="home__profile__strings">
+        <div class="home__profile__head">
+            <h2>Hello, my name is Hugo Pasqual del Pobil </h2><br>
+        </div>
+        <div class="home__profile__intro">
+            I'm a full time data engineer. Former data scientist and currently full-stack developer student. <br>
+            My passion is data. I have a degree in business and two masters in international markets and data science.
+            <br>
+        </div>
+        <div class="home__profile__text">
+            I have been accredited as a Certified European Financial Analyst (CEFA) and Chartered Alternative Investment
+            Analyst (CAIA). <br>
+            I have worked in the financial sector for 3 years. Specializing in financial markets and investment funds.
+            <br>
+            <br>
+            My experience in data science begins in 2021 and continues to this day.
+            I have worked in the development of machine learning models for the prediction of financial markets, 
+            specialized in Natural language Processing and Time Series Analysis, and gained deep understanding of Generative
+            Technology and Neural Networks.<br>
+            <br>
+            Now I deeply focus on Big Data technology and cloud computing. <br>
+        </div>
+
+        <div class="signature">
+            <img src="/img/signature.jpg" alt="signature">
+        </div>
+
+        <div class="download-cv-button">
+            <a href="/pdfs/cv_sept_2023.pdf" download="CV Hugo Pasqual del Pobil 2023">
+            Download CV
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="worked-firms">
+    <div class="logos">
+        <div class="logos-slide">
+            {{#each experiences}}
+                <a href="/professional_experience/{{this._id}}" target="_self"><img src="{{this.image}}" alt="{{this.firm}} Logo"></a>
+            {{/each}}
+        </div>
+
+       <div class="logos-slide">
+            {{#each experiences}}
+                <a href="/professional_experience/{{this._id}}" target="_self"><img src="{{this.image}}" alt="{{this.firm}} Logo"></a>
+            {{/each}}
+        </div>
+
+</div>

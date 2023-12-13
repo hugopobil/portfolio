@@ -1,0 +1,154 @@
+{
+    "experience" : [
+        {
+            "firm": "NTT DATA Europe & Latam",
+            "position": "Data Engineer & Business Consultant",
+            "tech_stack" : [
+                "Python","SQL","AWS","Azure","Spark","Hadoop","Databricks","Scala"
+            ],
+            "description": "Data Engineer & Business Consultant at NTT DATA Europe & Latam. I work with Python, SQL, AWS, Azure, Spark, Hadoop, Databricks, Scala and other technologies to deliver data solutions to our clients.",
+            "responsibilities" : [
+                "Data Driven Banking Team (Junior Data Consultant & Data Engineer). Developing data projects for financial institutions (Capital and CDO Divisions)",
+                "Main functions include the development of data pipelines with Scala (Spark), data management for the provision of client tools and applications",
+                "Other functions include the creation and maintenance of data repositories and SQL tables with financial time series, in addition to lake management, query scripting in Snowflake, data model construction and maintenance",
+                "Utilisation of Artificial Intelligence solutions applied to data governance with NLP algorithms, extensive use of neural networks and transformers (GPT)",
+                "Utilisation of Artificial Intelligence solutions applied to data governance with NLP algorithms, extensive use of neural networks and transformers (GPT)",
+                "Data models constructions and development in VBA (automatization of ETL processes) for regulatory reporting initiatives",
+                "Data extraction and transformation with Scala (Spark), Hadoop Distributed File System, Python"
+            ],
+            "startDate" : "1st January 2023",
+            "endDate" : "Present",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/nttdata.png"
+        },
+
+        {
+            "firm": "Mr Houston Tech Solutions",
+            "position": "Data Scientist and product Owner",
+            "tech_stack" : [
+                "Python","SQL","AWS","Azure","Dash","MLFlow","Docker","Dusk"
+            ],
+            "description": "Data Scientist and Product Owner at the Artificial Intelligence Team. Developing solutions based on NLP applied to financial data.",
+            "responsibilities" : [
+                "Data Exploration and Analysis: responsible for exploring and analyzing large datasets to identify patterns, trends, and relationships. This involves cleaning and preprocessing data, performing statistical analysis, and applying various data mining techniques.",
+                "Machine Learning and Predictive Modeling: develop and implement machine learning algorithms and models to make predictions and solve problems. This includes selecting appropriate algorithms, training models, evaluating their performance, and fine-tuning them for optimal results.",
+                "Data Visualization: create visual representations of data to effectively communicate insights and findings to stakeholders. They use tools like matplotlib, seaborn, or Tableau to create meaningful and informative visualizations.",
+                "Feature Engineering: engineer and transform raw data into meaningful features that can be used by machine learning models. This involves selecting relevant variables, creating new features, and applying techniques like one-hot encoding, scaling, or dimensionality reduction.",
+                "Data Pipeline Development: build data pipelines to automate the collection, processing, and analysis of data. This includes integrating data from various sources, ensuring data quality and consistency, and implementing data transformation and aggregation steps.",
+                "Collaborating with Stakeholders: work closely with stakeholders, such as business analysts, product owners, and domain experts, to understand their requirements and translate them into data-driven solutions. They communicate findings, insights, and recommendations effectively to non-technical stakeholders.",
+                "Continuous Learning and Research: stay updated with the latest advancements in the field of data science and machine learning. They continuously learn new techniques, algorithms, and tools to improve their skills and stay ahead in the rapidly evolving field."
+            ],
+            "startDate" : "1st December 2021",
+            "endDate" : "31st December 2022",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/mrhouston.png"
+        },
+
+        {
+            "firm": "Deutsche Bank",
+            "position": "Corporate Bank Intern",
+            "tech_stack" : [
+                "Excel", "VBA", "SQL"
+            ],
+            "description": "Off-Cycle Internship conducted during the completition of my MSc in Finance. I worked in the Corporate Bank Division, in the Credit Risk Management Department.",
+            "responsibilities" : [
+                "Client relationship management (CRM) to listed Spanish organizations and global subsidiaries",
+                "Company valuation and industrial analysis for product and solutions management",
+                "Financial analysis and financial modelling for the provision of credit facilities"
+            ],
+            "startDate" : "1st May 2021",
+            "endDate" : "31st October 2021",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/deutsche.png"
+        },
+
+        {
+            "firm": "Generali España",
+            "position": "Risk Management Intern",
+            "tech_stack" : [
+                "Excel", "VBA", "Office", "Power BI"
+            ],
+            "description": "Two months internship in the Risk Management Department of Generali España.",
+            "responsibilities" : [
+                "Risk Management, Planning and Control Operations of Financial Investments (Middle Office)",
+                "Company valuation and forecast modelling for financial risk management",
+                "Financial analysis and financial modelling for the provision of credit facilities"
+            ],
+            "startDate" : "1st Novermber 2020",
+            "endDate" : "31st December 2020",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/generali.png"
+        },
+
+        {
+            "firm": "C-Quadrat Investment Group France",
+            "position": "Asset Management Intern",
+            "tech_stack" : [
+                "Excel", "VBA", "Office"
+            ],
+            "description": "Off-cycle internship in the Asset Management Department of C-Quadrat Investment Group France.",
+            "responsibilities" : [
+                "Risk Management, Planning and Control Operations of Financial Investments (Middle Office)",
+                "Company valuation and forecast modelling for financial risk management",
+                "Financial analysis and financial modelling for the provision of credit facilities"
+            ],
+            "startDate" : "1st January 2020",
+            "endDate" : "31st July 2020",
+            "location" : "Paris, France",
+            "image" : "/img/logos/c-quadrat.png"
+        },
+
+        {
+            "firm": "Alantra Partners",
+            "position": "Mergers & Acquisitions Intern",
+            "tech_stack" : [
+                "Excel", "VBA", "Office"
+            ],
+            "description": "Summer internship in the Mergers & Acquisitions Department of Alantra Partners.",
+            "responsibilities" : [
+                "Market analysis and understanding of changes moved by economic factors",
+                "Company research, financial advisory and investment development for M&A transactions",
+                "Company valuation and forecast modelling for financial risk management",
+                "Financial analysis and financial modelling for the provision of credit facilities"
+            ],
+            "startDate" : "1st June 2019",
+            "endDate" : "31st July 2019",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/alantra.png"
+        },
+
+        {
+            "firm": "C-Quadrat Investment Group UK",
+            "position": "Private Equity Intern",
+            "tech_stack" : [
+                "Excel", "VBA", "Office"
+            ],
+            "description": "Summer internship in the Private Equity Department of C-Quadrat Investment Group UK.",
+            "responsibilities" : [
+                "Developed a good understanding of corporate finance, financial markets and financial analysis",
+                "Worked on a project to quantify and explain the currency movements in different countries and markets"
+            ],
+            "startDate" : "1st July 2018",
+            "endDate" : "31st July 2018",
+            "location" : "London, UK",
+            "image" : "/img/logos/c-quadrat.png"
+        },
+
+        {
+            "firm": "Stifel Nicolaus Ltd",
+            "position": "Brokerage Intern",
+            "tech_stack" : [
+                "Excel", "VBA", "Office"
+            ],
+            "description": "Summer internship in the brokerage department of Stifel Nicolaus Ltd.",
+            "responsibilities" : [
+                "Assistance to trading of US equities for Spanish public and private institutions.",
+                "US Equity sales: Support to sales team including active search of investment ideas"
+            ],
+            "startDate" : "1st June 2017",
+            "endDate" : "31st June 2017",
+            "location" : "Madrid, Spain",
+            "image" : "/img/logos/stifel.png"
+        }
+    ]
+}

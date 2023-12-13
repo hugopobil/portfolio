@@ -1,0 +1,22 @@
+<div class="education__card">
+    <div class="education__card__image">
+        <img src="{{this.image}}" alt="image">
+    </div>
+    <div class="education__card__content">
+        <p class="education__card__institution">{{this.firm}}</p>
+        <p class="education__card__course">{{this.position}}</p>
+        <p class="education__card__dates">{{this.startDate}} - {{this.endDate}}</p>
+        <p class="education__card__location">{{this.location}}</p>
+        <div class="education__card__tech_stack">
+            {{#each this.tech_stack}}
+            <div class="div">
+                <a href="#">{{this}}</a>
+            </div>  
+            {{/each}}
+        </div>
+
+        <div class="details__button">
+            <a href="/professional_experience/{{this._id}}">Details</a>
+        </div>
+    </div>
+</div>
