@@ -4,6 +4,15 @@
         <a href="/"><img src="/img/logo_hpp.png" alt="logo_hpp"></a>
     </div>
 
+    {{#if currentUser}}
+    <div class="admin__button">
+        <div class="admin-mode-indicator">
+            <a href="/logout">Admin</a>
+        </div>
+    </div>
+        
+    {{/if}}
+
     <div class="navbar__links">
 
         <a href="/">Home</a>

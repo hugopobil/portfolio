@@ -1,22 +1,29 @@
 <div class="education__card">
     <div class="education__card__image">
-        <img src="{{this.image}}" alt="image">
+        <img src="{{experience.image}}" alt="image">
     </div>
     <div class="education__card__content">
-        <p class="education__card__institution">{{this.firm}}</p>
-        <p class="education__card__course">{{this.position}}</p>
-        <p class="education__card__dates">{{this.startDate}} - {{this.endDate}}</p>
-        <p class="education__card__location">{{this.location}}</p>
+        <p class="education__card__institution">{{experience.firm}}</p>
+        <p class="education__card__course">{{experience.position}}</p>
+        <p class="education__card__dates">{{experience.startDate}} - {{experience.endDate}}</p>
+        <p class="education__card__location">{{experience.location}}</p>
         <div class="education__card__tech_stack">
-            {{#each this.tech_stack}}
+            {{#each experience.tech_stack}}
             <div class="div">
                 <a href="#">{{this}}</a>
-            </div>  
+            </div>
             {{/each}}
         </div>
+        <div class="function__buttons">
+            <div class="details__button">
+                <a href="/professional_experience/{{experience._id}}">Details</a>
+            </div>
 
-        <div class="details__button">
-            <a href="/professional_experience/{{this._id}}">Details</a>
+            {{#if currentUser}}
+            <div class="details__button">
+                <a href="/professional_experience/{{experience._id}}/edit">Edit</a>
+            </div>
+            {{/if}}
         </div>
     </div>
 </div>

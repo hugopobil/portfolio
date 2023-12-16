@@ -319,6 +319,12 @@ body {
     color: white
 }
 
+.education__card__responsibilities {
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
 .education__card__course {
     font-size: 15px;
     text-align: justify;
@@ -561,7 +567,7 @@ textarea:hover {
     padding: 5px;
     margin-right: 10px;
     border-radius: 10px;
-    width: 60px;
+    width: 100px;
     text-align: center;
 }
 
@@ -580,7 +586,8 @@ textarea:hover {
     justify-content: start;
     align-items: start;
     width: 100%;
-    margin-left: 350px;
+    margin-left: 300px;
+    margin-top: 20px;
 }
 
 .return__button__experience {
@@ -590,7 +597,7 @@ textarea:hover {
     padding: 5px;
     margin-right: 10px;
     border-radius: 10px;
-    width: auto;
+    width: 100px;
     text-align: center;
     position: relative;
 }
@@ -602,4 +609,72 @@ textarea:hover {
 
 .return__button__experience:hover {
     background-color: #ff7b00;
+}
+
+.admin__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-mode-indicator {
+    height: 20px;
+    width: 60px;
+    background-color: #ff7b00;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.admin-mode-indicator a {
+    text-decoration: none;
+    color: white;
+}
+
+.function__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.login__button {
+    margin-top: 20px;
+    height: 40px;
+    width: 60px;
+    background-color: #ff7b00;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#login-submit {
+    width: 502px;
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px #b3aca7;
+    /* border-top: none; */
+}
+
+#login-submit:hover {
+    color: white;
+    background-color: #ff7b00;
+}
+
+.login__form {
+    width: 80%;
+    height: auto;
+    background-color: #f7f7f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
 }

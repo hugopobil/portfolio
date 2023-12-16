@@ -1,23 +1,30 @@
 <div class="education__card">
     <div class="education__card__image">
-        <img src="{{this.image}}" alt="image">
+        <img src="{{education.image}}" alt="image">
     </div>
     <div class="education__card__content">
-        <p class="education__card__institution">{{this.institution}}</p>
-        <p class="education__card__course">{{this.course}}</p>
-        <p class="education__card__dates">{{this.startDate}} - {{this.endDate}}</p>
-        <p class="education__card__location">{{this.location}}</p>
+        <p class="education__card__institution">{{education.institution}}</p>
+        <p class="education__card__course">{{education.course}}</p>
+        <p class="education__card__dates">{{education.startDate}} - {{education.endDate}}</p>
+        <p class="education__card__location">{{education.location}}</p>
         <div class="education__card__tech_stack">
-            {{#each this.tech_stack}}
+            {{#each education.tech_stack}}
             <div class="div">
                 <a href="#">{{this}}</a>
             </div>
-                
+
             {{/each}}
         </div>
+        <div class="function__buttons">
+            <div class="details__button">
+                <a href="/education/{{education._id}}">Details</a>
+            </div>
 
-        <div class="details__button">
-            <a href="/education/{{this._id}}">Details</a>
+            {{#if currentUser}}
+            <div class="details__button">
+                <a href="/education/{{education._id}}/edit">Edit</a>
+            </div>
+            {{/if}}
         </div>
 
     </div>

@@ -22,12 +22,12 @@ app.set("view engine", "hbs");
 // register the partials
 hbs.registerPartials(__dirname + "/views/partials");
 
-// const { sessionConfig } = require("./config/session.config");
-// app.use(sessionConfig);
-// app.use((req, res, next) => {
-//   res.locals.currentUser = req.session.currentUser;
-//   next();
-// });
+const { sessionConfig } = require("./config/session.config");
+app.use(sessionConfig);
+app.use((req, res, next) => {
+  res.locals.currentUser = req.session.currentUser;
+  next();
+});
 
 // routes
 const router = require("./router/router");

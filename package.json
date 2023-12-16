@@ -8,7 +8,8 @@
     "hbs": "^4.2.0",
     "mongoose": "^8.0.3",
     "morgan": "^1.10.0",
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.2",
+    "passport": "^0.7.0"
   },
   "name": "portfolio",
   "description": "<b>Author: Hugo Pasqual del Pobil </b>",
@@ -19,7 +20,8 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "seed_education": "node ./bin/educationSeed.js",
-    "seed_experience": "node ./bin/experienceSeed.js"
+    "seed_experience": "node ./bin/experienceSeed.js",
+    "seed_user": "node ./bin/userSeed.js"
   },
   "keywords": [],
   "author": "",
