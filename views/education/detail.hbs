@@ -1,8 +1,17 @@
 <div class="education__container">
     <div class="return__button__container">
         <div class="return__button__experience">
-            <a href="/education">Return to Educations</a>
+            <a href="/education">Return</a>
         </div>
+        {{#if currentUser}}
+        <div class="function__buttons">
+
+            <div class="details__button">
+                <a href="/education/{{education._id}}/edit">Edit</a>
+            </div>
+
+        </div>
+        {{/if}}
     </div>
 
 
@@ -20,9 +29,10 @@
                 <div class="div">
                     <a href="#">{{this}}</a>
                 </div>
-
                 {{/each}}
+
             </div>
+
             <p class="education__card__responsibilities">
             <ul>
                 {{#each education.responsibilities}}
@@ -31,6 +41,8 @@
                 {{/each}}
             </ul>
             </p>
+
         </div>
     </div>
+</div>
 </div>

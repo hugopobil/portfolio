@@ -2,6 +2,7 @@ const Education = require('../models/Education.model');
 
 module.exports.list = (req, res, next) => {
     Education.find()
+        .sort({ startDate: 1 })
         .then((educations) => {
             console.log(educations)
             res.render('education', { educations });

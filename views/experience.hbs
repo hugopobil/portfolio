@@ -1,6 +1,6 @@
 <div class="education__container">
     {{#each experiences}}
-        {{> experience_card this}}
+        {{> experience_card currentUser=../currentUser experience=this}}
         {{!-- <div class="horizontal__line"></div> --}}
     {{/each}}
 </div>

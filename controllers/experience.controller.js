@@ -2,6 +2,7 @@ const Experience = require('../models/Experience.model');
 
 module.exports.list = (req, res, next) => {
     Experience.find()
+        .sort({ startDate: -1 })
         .then((experiences) => {
             console.log(experiences)
             res.render('experience', { experiences });

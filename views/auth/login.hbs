@@ -1,0 +1,22 @@
+<div id="login" class="contact__container">
+  <h1>Login</h1>
+
+  <form action="/login" method="POST" id="form" class="topBefore">
+    <div>
+      <input value="" type="text" name="username" class="{{#if errors}}is-invalid{{/if}} form-control" id="email" required placeholder="Username">
+    </div>
+    <div>
+      <input type="password" name="password" id="password" required placeholder="Password">
+    </div>
+    <input id="login-submit" type="submit" value="LOGIN">
+    {{#if errors}}
+      <div>
+        <small>{{errors.msg}}</small>
+      </div>
+    {{/if}}
+    <div >
+     
+      {{!-- <a href="/auth/google">Sign in with <img src="/images/google-icon.png" width="25"></img>Google</a> --}}
+    </div>
+  </form>
+</div>
