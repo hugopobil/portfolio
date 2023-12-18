@@ -1,75 +1,8 @@
 const mongoose = require('mongoose');
 const User = require('../models/User.model');
 const passport = require("passport");
+const { log } = require('console');
 
-// registration code not in use
-// module.exports.register = (req, res, next) => {
-//   res.render('auth/register');
-// };
-
-// module.exports.doRegister = (req, res, next) => {
-//   const { username, email, password } = req.body;
-
-//   User.findOne({ email })
-//     .then((dbUser) => {
-//       if (dbUser) {
-//         res.render('auth/register', {
-//           user: {
-//             email,
-//             username,
-//           },
-//           errors: {
-//             email: 'Email already registered!',
-//           },
-//         });
-//       } else {
-//         User.create({
-//           username,
-//           email,
-//           password,
-//         })
-//           .then((userCreated) => {
-//             const {
-//               transporter,
-//               createEmailTemplate,
-//             } = require('../config/nodemailer.config');
-            
-//             transporter.sendMail(
-//               {
-//                 from: process.env.NODEMAILER_EMAIL,
-//                 to: email,
-//                 subject: 'Ironbooks - Validation email',
-//                 html: createEmailTemplate(userCreated),
-//               },
-//               function (error, info) {
-//                 if (error) {
-//                   console.log(error);
-//                 } else {
-//                   console.log('Email sent: ' + info.response);
-//                 }
-//                 res.redirect('/login');
-//               }
-//             );
-//           })
-//           .catch((error) => {
-//             if (error instanceof mongoose.Error.ValidationError) {
-//               res.render('auth/register', {
-//                 user: {
-//                   email,
-//                   username,
-//                 },
-//                 errors: error.errors, // {  EMAIL: 'lo que sea', PASSWOR: '', USERNAME: ''}
-//               });
-//             } else {
-//               next(error);
-//             }
-//           });
-//       }
-//     })
-//     .catch((err) => {
-//       console.error(err);
-//     });
-// };
 
 module.exports.activate = (req, res, next) => {
   const { token } = req.params;
@@ -114,7 +47,8 @@ module.exports.doLogin = (req, res, next) => {
                   renderWithErrors('User not active');
                 } else {
                   req.session.currentUser = dbUser;
-                    res.redirect('/');
+                  log(req.session.currentUser);
+                  res.redirect('/');
                 }
               }
             })
@@ -148,5 +82,5 @@ module.exports.doLogin = (req, res, next) => {
 module.exports.logout = (req, res, next) => {
   req.session.destroy();
   res.clearCookie('connect.sid');
-  res.redirect('/login');
+  res.redirect('/');
 };

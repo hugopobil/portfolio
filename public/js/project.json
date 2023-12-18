@@ -1,0 +1,90 @@
+{
+    "project": [
+        {
+            "title": "NLP algorithm to predict Bitcoin",
+            "location": "Developed during my Master's Degree in Data Science",
+            "description": "This project is about predicting the price of Bitcoin using NLP algorithm (Neural Network) and sentiment analysis",
+            "tech_stack": [
+                "Python",
+                "NLP",
+                "SQL",
+                "Machine Learning",
+                "Deep Learning",
+                "Tensorflow",
+                "Keras"
+            ],
+            "image": "/img/projects/data_science_thesis.png",
+            "file": "/pdfs/data_science_thesis.pdf",
+            "link": "https://github.com/hugopobil/tfm_hugopobil"
+        },
+
+        {
+            "title": "Sistematic ETF investment strategy using ESG factors",
+            "location": "Developed during my Master's Degree in Finance",
+            "description": "This project is about creating a systematic investment strategy using ESG factors based on the fama french 3 factors model",
+            "tech_stack": [
+                "Excel",
+                "VBA",
+                "SQL"
+            ],
+            "image": "/img/projects/etf_strategy.png",
+            "file": "/pdfs/etf_strategy.pdf"
+        },
+
+        {
+            "title": "Investment location for multinational company",
+            "location": "Developed during my Master's Degree in Data Science",
+            "description": "This project analyses the realistic investment location for a multinational company based on the market size and the market growth",
+            "tech_stack": [
+                "Excel",
+                "VBA"
+            ],
+            "image": "/img/projects/investment_location.png",
+            "file": "/pdfs/investment_location.pdf"
+        },
+
+        {
+            "title": "Accident prediction algorithm for Canada Auto Insurance",
+            "location": "Developed during my Bachelor's Degree in Business Administration",
+            "description": "This project is about predicting the probability of having an accident using a classification algorithm (Random Forest)",
+            "tech_stack": [
+                "Python",
+                "SQL",
+                "Machine Learning",
+                "Scikit-learn",
+                "Pandas",
+                "Numpy"
+            ],
+            "image": "/img/projects/insurance.png",
+            "link": "https://github.com/hugopobil/ML_canada_car_accidents"
+        },
+
+        {
+            "title": "Spotify Front-End API",
+            "description": "This project is about creating a front-end API for Spotify using the Spotify API",
+            "location": "Developed during my Web Development Bootcamp",
+            "tech_stack": [
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Spotify API"
+            ],
+            "image": "/img/projects/spotify.png",
+            "link": "https://github.com/hugopobil/lab-express-spotify"
+        },
+
+        {
+            "title": "Portfolio Website",
+            "description": "This project is about creating a portfolio website using HTML, CSS and Javascript with Express Framework",
+            "location": "Developed during my Web Development Bootcamp",
+            "tech_stack": [
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Express"
+            ],
+            "image": "/img/projects/portfolio.png",
+            "link": "https://github.com/hugopobil/portfolio"
+        }
+    ]
+}
