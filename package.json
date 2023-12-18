@@ -21,7 +21,8 @@
     "dev": "nodemon app.js",
     "seed_education": "node ./bin/educationSeed.js",
     "seed_experience": "node ./bin/experienceSeed.js",
-    "seed_user": "node ./bin/userSeed.js"
+    "seed_user": "node ./bin/userSeed.js",
+    "seed_project": "node ./bin/projectSeed.js"
   },
   "keywords": [],
   "author": "",

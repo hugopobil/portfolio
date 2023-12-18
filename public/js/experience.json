@@ -19,7 +19,9 @@
             "startDate" : "1st January 2023",
             "endDate" : "Present",
             "location" : "Madrid, Spain",
-            "image" : "/img/logos/nttdata.png"
+            "image" : "/img/logos/nttdata.png",
+            "firm_link" : "https://www.nttdata.com/global/en/",
+            "firm_description": "NTT DATA is a leading IT services provider and global innovation partner headquartered in Tokyo, with business operations in over 50 countries. Our emphasis is on long-term commitment, combining global reach with local intimacy to provide premier professional services varying from consulting and systems development to outsourcing."
         },
 
         {
@@ -41,7 +43,9 @@
             "startDate" : "1st December 2021",
             "endDate" : "31st December 2022",
             "location" : "Madrid, Spain",
-            "image" : "/img/logos/mrhouston.png"
+            "image" : "/img/logos/mrhouston.png",
+            "firm_link" : "https://www.mrhouston.tech/",
+            "firm_description": "Mr Houston Tech Solutions is a technology company that provides solutions to the financial sector. We are a team of experts in the financial sector and in the latest technologies. We are passionate about technology and we are committed to the development of our clients."
         },
 
         {
@@ -61,7 +65,9 @@
             "startDate" : "1st May 2021",
             "endDate" : "31st October 2021",
             "location" : "Madrid, Spain",
-            "image" : "/img/logos/deutsche.png"
+            "image" : "/img/logos/deutsche.png",
+            "firm_link" : "https://www.db.com/spain/index.htm",
+            "firm_description": "Deutsche Bank is a leading global investment bank with a strong and profitable private clients franchise. A leader in Germany and Europe, the Bank is continuously growing in North America, Asia and key emerging markets. With more than 78,000 employees in over 70 countries worldwide, Deutsche Bank offers unparalleled financial services throughout the world. The Bank competes to be the leading global provider of financial solutions for demanding clients creating exceptional value for its shareholders and people."
         },
 
         {
@@ -80,7 +86,9 @@
             "startDate" : "1st Novermber 2020",
             "endDate" : "31st December 2020",
             "location" : "Madrid, Spain",
-            "image" : "/img/logos/generali.png"
+            "image" : "/img/logos/generali.png",
+            "firm_link" : "https://www.generali.es/",
+            "firm_description": "Generali is one of the largest global insurance and asset management providers. Established in 1831, it is present in 50 countries in the world, with a total premium income of more than € 69.7 billion in 2019. With nearly 72,000 employees serving 61 million customers, the Group has a leading position in Europe and a growing presence in Asia and Latin America."
         },
 
         {
@@ -100,7 +108,9 @@
             "startDate" : "1st January 2020",
             "endDate" : "31st July 2020",
             "location" : "Paris, France",
-            "image" : "/img/logos/c-quadrat.png"
+            "image" : "/img/logos/c-quadrat.png",
+            "firm_link" : "https://www.c-quadrat.com/en/",
+            "firm_description": "C-Quadrat Investment Group is an independent asset manager with a focus on asset management for private and institutional clients. The company was founded in 1991 and has been listed on the Vienna Stock Exchange since 2006. C-Quadrat Investment Group is represented in 19 countries and currently employs around 200 people. The company is headquartered in Vienna, Austria."
         },
 
         {
@@ -122,7 +132,9 @@
             "startDate" : "1st June 2019",
             "endDate" : "31st July 2019",
             "location" : "Madrid, Spain",
-            "image" : "/img/logos/alantra.png"
+            "image" : "/img/logos/alantra.png",
+            "firm_link" : "https://www.alantra.com/",
+            "firm_description": "Alantra is a global investment banking and asset management firm focusing on the mid-market with offices across Europe, the US, Asia and Latin America. Our Investment Banking division employs over 280 professionals, providing independent advice on M&A, debt advisory, financial restructuring, credit portfolio and capital markets transactions. Our Asset Management division comprises a team of 80 professionals with €3.7bn in Private Debt, Active Funds, Capital Markets and Wealth Management."
         },
 
         {
@@ -141,7 +153,9 @@
             "startDate" : "1st July 2018",
             "endDate" : "31st July 2018",
             "location" : "London, UK",
-            "image" : "/img/logos/c-quadrat.png"
+            "image" : "/img/logos/c-quadrat.png",
+            "firm_link" : "https://www.c-quadrat.com/en/",
+            "firm_description": "C-Quadrat Investment Group is an independent asset manager with a focus on asset management for private and institutional clients. The company was founded in 1991 and has been listed on the Vienna Stock Exchange since 2006. C-Quadrat Investment Group is represented in 19 countries and currently employs around 200 people. The company is headquartered in Vienna, Austria."
         },
 
         {
@@ -158,7 +172,9 @@
             "startDate" : "1st June 2017",
             "endDate" : "31st June 2017",
             "location" : "Madrid, Spain",
-            "image" : "/img/logos/stifel.png"
+            "image" : "/img/logos/stifel.png",
+            "firm_link" : "https://www.stifel.com/",
+            "firm_description": "Stifel Financial Corp. is an American multinational independent investment bank and financial services company created under its present name in July 1983 and listed on the New York Stock Exchange on November 24, 1986. Its predecessor company was founded in 1890 as the Altheimer and Rawlings Investment Company and is headquartered in downtown St. Louis, Missouri."
         }
     ]
 }

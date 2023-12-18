@@ -37,6 +37,14 @@ const experienceSchema = mongoose.Schema({
         type: String,
         required: [true, "Image is required"],
     },
+    firm_link: {
+        type: String,
+        required: [true, "Firm link is required"],
+    },
+    firm_description: {
+        type: String,
+        required: [true, "Firm description is required"],
+    },
 });
 
 const Experience = mongoose.model("Experience", experienceSchema);

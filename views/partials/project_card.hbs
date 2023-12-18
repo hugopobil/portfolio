@@ -1,0 +1,38 @@
+<div class="education__card">
+    <div class="project__card__image">
+        <img src="{{project.image}}" alt="image">
+    </div>
+    <div class="education__card__content">
+        <p class="education__card__institution">{{project.title}}</p>
+        <p class="education__card__firm__description">{{project.location}}</p>
+        <p class="education__card__course">{{project.description}}</p>
+        <div class="education__card__tech_stack">
+            <ul>
+                {{#each project.tech_stack}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+
+        </div>
+        <div class="function__buttons"> 
+
+            {{#if currentUser}}
+            <div class="details__button">
+                <a href="/professional_experience/{{project._id}}/edit">Edit</a>
+            </div>
+            {{/if}}
+
+            {{#if project.link}}
+            <div class="details__button">
+                <a href="{{project.link}}" target="_blank">Code</a>
+            </div>
+            {{/if}}
+        </div>
+
+        {{#if project.file}}
+        <div class="download-pdf-button">
+            <a href="{{project.file}}" download="{{project.file}}">Download PDF</a>
+        </div>
+        {{/if}}
+    </div>
+</div>
