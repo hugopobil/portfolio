@@ -48,11 +48,11 @@ module.exports.send = (req, res, next) => {
     };
     
     const emailOptions = {
-        from: process.env.EMAIL,
+        from: email,
         to: process.env.EMAIL,
         subject: "Contact",
-        text: `from: ${name} - ${company} - ${position} - ${email} - ${message}`,
-        html: `<p>from: ${name} - ${company} - ${position} - ${email} - ${message}</p>`
+        text: `from: ${name} - ${company} - ${position} - ${message}`,
+        html: `<p>from: ${name} - ${company} - ${position} - ${message}</p>`
     };
     
     const sendEmail = async (emailOptions) => {
