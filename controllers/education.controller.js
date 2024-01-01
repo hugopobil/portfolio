@@ -34,6 +34,9 @@ module.exports.doEdit = (req, res, next) => {
 
     console.log("req.body", req.body)
 
+    req.body.tech_stack = req.body.tech_stack.split(',')
+    req.body.responsabilities = req.body.responsabilities.split(',')
+
     Education.findByIdAndUpdate(id, req.body, { new: true })
         .then(education => {
             console.log(education)

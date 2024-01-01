@@ -31,6 +31,9 @@ module.exports.edit = (req, res, next) => {
 module.exports.doEdit = (req, res, next) => {
     const { id } = req.params;
 
+    req.body.tech_stack = req.body.tech_stack.split(',')
+    req.body.responsabilities = req.body.responsabilities.split(',')
+
     Experience.findByIdAndUpdate(id, req.body, { new: true })
         .then((experience) => {
             res.redirect(`/professional_experience/${experience._id}`);

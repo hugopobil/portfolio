@@ -14,7 +14,7 @@ const projectSchema = mongoose.Schema({
         required: [true, "Position is required"],
     },
     tech_stack: {
-        type: Array,
+        type: [String],
         required: [true, "Tech stack is required"],
     },
     image: {

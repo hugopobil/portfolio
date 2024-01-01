@@ -40,7 +40,7 @@ router.get("/references", referenceController.list);
 
 // contact routes
 router.get("/contact", contactController.render);
-router.post("/send", contactController.send);
+router.post("/sendmail", contactController.send);
 
 // login admin routes
 router.get("/login", authController.login)

@@ -10,7 +10,7 @@ const educationSchema = mongoose.Schema({
         required: [true, "Position is required"],
     },
     tech_stack: {
-        type: Array,
+        type: [String],
         required: [true, "Tech stack is required"],
     },
     description: {
@@ -18,7 +18,7 @@ const educationSchema = mongoose.Schema({
         required: [true, "Description is required"],
     },
     responsibilities: {
-        type: Array,
+        type: [String],
         required: [true, "Responsibilities is required"],
     },
     startDate: {
