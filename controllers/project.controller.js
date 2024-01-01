@@ -10,15 +10,6 @@ module.exports.list = (req, res, next) => {
         .catch((err) => next(err));
 };
 
-// module.exports.detail = (req, res, next) => {
-//     const { id } = req.params;
-//     Experience.findById(id)
-//         .then((experience) => {
-//             res.render('experience/detail', { experience });
-//         })
-//         .catch((err) => next(err));
-// }
-
 module.exports.filter = (req, res, next) => {
     const { tech } = req.params;
     Project.find({ tech_stack: tech })
@@ -40,9 +31,11 @@ module.exports.edit = (req, res, next) => {
 module.exports.doEdit = (req, res, next) => {
     const { id } = req.params;
 
+    req.body.tech_stack = req.body.tech_stack.split(',')
+
     Project.findByIdAndUpdate(id, req.body, { new: true })
         .then((project) => {
-            res.redirect(`/projects/${project._id}`);
+            res.redirect(`/projects`);
         })
         .catch((err) => next(err));
 }
