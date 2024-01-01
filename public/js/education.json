@@ -22,7 +22,7 @@
             "institution" : "CUNEF",
             "course" : "Master's Degree in Data Science",
             "tech_stack" : [
-                "Python", "SQL", "Tableau", "Power BI", "Machine Learning", "Deep Learning", "ArcGIS", "Git"
+                "Python", "SQL", "Tableau", "Power BI", "Machine Learning", "Deep Learning", "ArcGIS", "Git", "Pandas", "Numpy", "Matplotlib"
             ],
             "description" : "Master's Degree in Data Science",
             "responsibilities" : [

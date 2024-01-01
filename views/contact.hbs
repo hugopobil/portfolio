@@ -1,11 +1,13 @@
 <div class="contact__container">
     <h1>Contact</h1>
     <div class="contact__form">
-        <form id="form" class="topBefore">
+        <form id="contact-form" class="topBefore" action="/send-email" method="post" enctype="multipart/form-data">
 
-            <input id="name" type="text" placeholder="NAME">
-            <input id="email" type="text" placeholder="E-MAIL">
-            <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+            <input name="name" type="text" placeholder="NAME" required>
+            <input name="email" type="email" placeholder="E-MAIL" required>
+            <input name="company" type="text" placeholder="COMPANY" required>
+            <input name="position" type="text" placeholder="POSITION" required>
+            <textarea name="message" type="text" placeholder="MESSAGE" required></textarea>
             <input id="submit" type="submit" value="SEND">
 
         </form>

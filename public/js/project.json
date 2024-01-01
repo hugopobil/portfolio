@@ -11,7 +11,9 @@
                 "Machine Learning",
                 "Deep Learning",
                 "Tensorflow",
-                "Keras"
+                "Keras",
+                "Matplotlib",
+                "Seaborn"
             ],
             "image": "/img/projects/data_science_thesis.png",
             "file": "/pdfs/data_science_thesis.pdf",
@@ -85,6 +87,35 @@
             ],
             "image": "/img/projects/portfolio.png",
             "link": "https://github.com/hugopobil/portfolio"
+        },
+
+        {
+            "title": "Black Jack Game",
+            "description": "This project is about creating a Black Jack game using Javascript",
+            "location": "Developed during my Web Development Bootcamp",
+            "tech_stack": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "image": "/img/projects/blackjack.png",
+            "link": "https://github.com/hugopobil/blackjack"
+        },
+
+        {
+            "title": "Fundamental Analysis",
+            "description": "This project is about creating a fundamental analysis of a company using Python",
+            "location": "Developed during my Master's Degree in Data Science",
+            "tech_stack": [
+                "Python",
+                "SQL",
+                "Pandas",
+                "Numpy",
+                "Matplotlib",
+                "Seaborn"
+            ],
+            "image": "/img/projects/fundamental_analysis.png",
+            "file": "/pdfs/fundamental_analysis.pdf"
         }
     ]
 }

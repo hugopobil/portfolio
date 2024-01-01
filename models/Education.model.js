@@ -19,7 +19,7 @@ const educationSchema = mongoose.Schema({
     },
     responsibilities: {
         type: Array,
-        required: [true, "Reponsabilities is required"],
+        required: [true, "Responsibilities is required"],
     },
     startDate: {
         type: String,
@@ -35,7 +35,7 @@ const educationSchema = mongoose.Schema({
     },
     image: {
         type: String,
-        required: [true, "Image is required"],
+        required: false,
     },
 });
 

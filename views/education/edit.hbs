@@ -1,0 +1,54 @@
+<div class="education__container">
+
+    <div class="return__button__container">
+        <div class="return__button__experience">
+            <a href="/education">Return</a>
+        </div>
+    </div>
+
+    <form class="edit__form" action="/education/{{education._id}}/edit" method="POST" enctype="multipart/form-data">
+
+        <div class="form__input">
+            <p for="institution">Institution</p>
+            <input type="text" name="institution" value="{{education.institution}}">
+        </div>
+
+        <div class="form__input">
+            <p for="course">Course</p>
+            <input type="text" name="course" value="{{education.course}}">
+        </div>
+
+        <div class="form__input">
+            <p for="startDate">Tech Stack</p>
+            <input type="text" name="tech_stack" value="{{education.tech_stack}}">
+        </div>
+
+        <div class="form__input">
+            <p for="description">Description</p>
+            <textarea id="largeTextField" name="description" rows="10" cols="50">{{education.description}}</textarea>
+
+        <div class="form__input">
+            <p for="largeText">Responsibilities</p>
+            <textarea id="largeTextField2" name="responsibilities" rows="10" cols="50">{{education.responsibilities}}</textarea>
+        </div>
+
+        <div class="form__input">
+            <p for="startDate">Start Date</p>
+            <input type="text" name="startDate" id="startDate" value="{{education.startDate}}">
+        </div>
+
+        <div class="form__input">
+            <p for="endDate">End Date</p>
+            <input type="text" name="endDate" id="endDate" value="{{education.endDate}}">
+        </div>
+
+        <div class="form__input">
+            <p for="location">Location</p>
+            <input type="text" name="location" id="location" value="{{education.location}}">
+        </div>
+
+        <button class="download-cv-button" type="submit"><i data-feather="edit"></i>Edit</button>
+
+    </form>
+
+</div>

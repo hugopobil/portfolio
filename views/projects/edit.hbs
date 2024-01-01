@@ -1,0 +1,45 @@
+<div class="education__container">
+
+    <div class="return__button__container">
+        <div class="return__button__experience">
+            <a href="/projects">Return</a>
+        </div>
+    </div>
+
+    <form class="edit__form" action="/projects/{{project._id}}/edit" method="POST" enctype="multipart/form-data">
+
+        <div class="form__input">
+            <p for="title">Title</p>
+            <input type="text" name="title" value="{{project.title}}">
+        </div>
+
+        <div class="form__input">
+            <p for="location">Location</p>
+            <input type="text" name="location" value="{{project.location}}">
+        </div>
+
+        <div class="form__input">
+            <p for="description">Description</p>
+            <textarea id="largeTextField" name="description" rows="10" cols="50">{{project.description}}</textarea>
+        </div>
+
+        <div class="form__input">
+            <p for="tech_stack">Tech Stack</p>
+            <input type="text" name="tech_stack" value="{{project.tech_stack}}">
+        </div>
+
+        <div class="form__input">
+            <p for="link">Link</p>
+            <input type="text" name="link" id="link" value="{{project.link}}">
+        </div>
+
+        <div class="form__input">
+            <p for="file">File</p>
+            <input type="text" name="file" id="file" value="{{project.file}}">
+        </div>
+
+        <button class="download-cv-button" type="submit"><i data-feather="edit"></i>Edit</button>
+
+    </form>
+
+</div>
