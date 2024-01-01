@@ -1,0 +1,35 @@
+{
+    "reference": [
+        {
+            "name": "Juan Manuel Cendoya Mendez de Vigo",
+            "position": "Vicepresidente y Consejero Delegado de Santander España",
+            "organisation": "Banco Santander", 
+            "reference": "I have know Hugo for a long time. He is very interested in learning and developing personally. His curiosity aboyt the financial and technology worlds is remarkable. We have had numerous conversations on this matter, showing me his interests and concerns. I am amazed at the level of knowledge he has about technology, and how he constantly thinks and reasons ways to improve and evolve. His excellent capacity for adaptation, initiaitve and motivation are enviable. I am sure he will be a great asset to any company that hires him. These aptitudes have allowed him to study and create a highly valuable international profile.",
+            "image" : "/img/ref/cendoya.png"
+        },
+
+        {
+            "name": "Carlos Mendez de Vigo",
+            "position": "Chief Financial Officer",
+            "organisation": "C-Quadrat Investment Group",
+            "reference": "Hugo is hard-working, smart and an excellent team player. He has a positive attitude towards the different tasks at hand and gained the appreciation of the entire team during his work experience. He is a very good communicator. I would recommend him without hesitation.",
+            "image" : "/img/ref/mendezdevigo.png"
+        },
+
+        {
+            "name": "Gregor Winkler",
+            "position": "Global Corporate Coverage",
+            "organisation": "Deutsche Bank",
+            "reference": "Hugo is determines and curious about his work. He correctly developed in his work with a positive attitude. He had a very good relationship with the rest of the team.",
+            "image" : "/img/ref/winkler.png"
+        },
+
+        {
+            "name": "Marta Trias Beleta",
+            "position": "Head of Wealth Management",
+            "organisation": "BNP Paribas",
+            "reference": "Hugo highlights for his professional trajectory, proving his ambition to reach goals and suceed. His diversified accumulated experience in the financial industry and skills acquired make him an excellent candidate. He is always interested in current affairs an his international intellectual capacity allows him to assimilate new knowledge and adap easily.",
+            "image" : "/img/ref/trias.png"
+        }
+    ]
+}

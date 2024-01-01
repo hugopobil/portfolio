@@ -19,7 +19,7 @@ const projectSchema = mongoose.Schema({
     },
     image: {
         type: String,
-        required: [true, "Description is required"],
+        required: [false, "Description is required"],
     },
     file: {
         type: String,

@@ -5,9 +5,11 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "googleapis": "^129.0.0",
     "hbs": "^4.2.0",
     "mongoose": "^8.0.3",
     "morgan": "^1.10.0",
+    "nodemailer": "^6.9.7",
     "nodemon": "^3.0.2",
     "passport": "^0.7.0"
   },
@@ -22,7 +24,8 @@
     "seed_education": "node ./bin/educationSeed.js",
     "seed_experience": "node ./bin/experienceSeed.js",
     "seed_user": "node ./bin/userSeed.js",
-    "seed_project": "node ./bin/projectSeed.js"
+    "seed_project": "node ./bin/projectSeed.js",
+    "seed_reference": "node ./bin/referenceSeed.js"
   },
   "keywords": [],
   "author": "",

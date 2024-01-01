@@ -35,7 +35,7 @@ const experienceSchema = mongoose.Schema({
     },
     image: {
         type: String,
-        required: [true, "Image is required"],
+        required: false,
     },
     firm_link: {
         type: String,

@@ -1,0 +1,15 @@
+<div class="reference__container">
+    {{#each references}}
+    <div class="reference__card">
+        <div class="reference__card__image">
+            <img src="{{this.image}}" alt="image">
+        </div>
+        <div class="reference__card__content">
+            <p class="reference__card__name">{{this.name}}</p>
+            <p class="reference__card__position">{{this.position}}</p>
+            <p class="reference__card__organisation">{{this.organisation}}</p>
+            <p class="reference__card__reference">{{this.reference}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
