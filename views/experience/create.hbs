@@ -1,0 +1,69 @@
+<div class="education__container">
+
+    <div class="return__button__container">
+        <div class="return__button__experience">
+            <a href="/professional_experience">Return</a>
+        </div>
+    </div>
+
+    <form class="edit__form" action="/professional_experience/create" method="POST">
+
+        <div class="form__input">   
+            <p for="firm">Firm</p>
+            <input type="text" name="firm" required>
+        </div>
+
+        <div class="form__input">
+            <p for="position">Position</p>
+            <input type="text" name="position" required>
+        </div>
+
+        <div class="form__input">
+            <p for="tech_stack">Tech Stack</p>
+            <input type="text" name="tech_stack" required>
+        </div>
+
+        <div class="form__input">
+            <p for="description">Description</p>
+            <textarea id="description" name="description" rows="10" cols="50"></textarea>
+
+        <div class="form__input">
+            <p for="responsabilities">Responsibilities</p>
+            <textarea id="responsabilities" name="responsibilities" rows="10" cols="50"></textarea>
+        </div>
+
+        <div class="form__input">
+            <p for="startDate">Start Date</p>
+            <input type="text" name="startDate" id="startDate" required>
+        </div>
+
+        <div class="form__input">
+            <p for="endDate">End Date</p>
+            <input type="text" name="endDate" id="endDate" required>
+        </div>
+
+        <div class="form__input">
+            <p for="location">Location</p>
+            <input type="text" name="location" id="location" required>
+        </div>
+
+        <div class="form__input">
+            <p for="image">Image (use .png)</p>
+            <input type="text" name="image" id="image" value="/img/logos/"> 
+        </div>
+
+        <div class="form__input">
+            <p for="firm_link">Firm Website</p>
+            <input type="text" name="firm_link" id="firm_link">
+        </div>
+
+        <div class="form__input">
+            <p for="firm_description">Firm Description</p>
+            <textarea id="firm_description" name="firm_description" rows="10" cols="50"></textarea>
+        </div>
+
+        <button class="download-cv-button" type="submit"><i data-feather="edit"></i>Create</button>
+
+    </form>
+
+</div>

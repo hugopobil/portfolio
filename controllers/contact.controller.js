@@ -27,6 +27,6 @@ module.exports.send = (req, res, next) => {
           } else {
             console.log('Email sent: ' + info.response);
           }
-          res.redirect('/home');
+          res.redirect('/');
         })    
 };

@@ -39,3 +39,17 @@ module.exports.doEdit = (req, res, next) => {
         })
         .catch((err) => next(err));
 }
+
+module.exports.delete = (req, res, next) => {
+    const { id } = req.params;
+
+    Project.findByIdAndDelete(id)
+        .then(() => {
+            res.redirect('/projects');
+        })
+        .catch((err) => next(err));
+}
+
+module.exports.create = (req, res, next) => {
+    res.render('projects/create');
+}

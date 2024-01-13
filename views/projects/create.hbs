@@ -1,0 +1,45 @@
+<div class="education__container">
+
+    <div class="return__button__container">
+        <div class="return__button__experience">
+            <a href="/projects">Return</a>
+        </div>
+    </div>
+
+    <form class="edit__form" action="/projects/create" method="POST">
+
+        <div class="form__input">   
+            <p for="title">Title</p>
+            <input type="text" name="title" required>
+        </div>
+
+        <div class="form__input">
+            <p for="tech_stack">Tech Stack</p>
+            <input type="text" name="tech_stack" required>
+        </div>
+
+        <div class="form__input">
+            <p for="location">Location</p>
+            <input type="text" name="location" id="location" required>
+        </div>
+
+        <div class="form__input">
+            <p for="image">Image (use .png)</p>
+            <input type="text" name="image" id="image" value="/img/projects/">
+        </div>
+
+        <div class="form__input">
+            <p for="file">File (use .pdf)</p>
+            <input type="text" name="file" id="file" value="/pdfs/">
+        </div>
+
+        <div class="form__input">
+            <p for="link">Code</p>
+            <input type="text" name="link" id="link">
+        </div>
+
+        <button class="download-cv-button" type="submit"><i data-feather="edit"></i>Create</button>
+
+    </form>
+
+</div>

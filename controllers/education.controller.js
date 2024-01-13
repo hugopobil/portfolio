@@ -17,7 +17,7 @@ module.exports.detail = (req, res, next) => {
             res.render('education/detail', { education });
         })
         .catch((err) => next(err));
-}
+};
 
 module.exports.edit = (req, res, next) => {
     const { id } = req.params;
@@ -27,15 +27,13 @@ module.exports.edit = (req, res, next) => {
             res.render('education/edit', { education });
         })
         .catch(next);
-}
+};
 
 module.exports.doEdit = (req, res, next) => {
     const { id } = req.params;
 
-    console.log("req.body", req.body)
-
     req.body.tech_stack = req.body.tech_stack.split(',')
-    req.body.responsabilities = req.body.responsabilities.split(',')
+    req.body.responsibilities = req.body.responsibilities.split(',')
 
     Education.findByIdAndUpdate(id, req.body, { new: true })
         .then(education => {
@@ -43,4 +41,29 @@ module.exports.doEdit = (req, res, next) => {
             res.redirect(`/education/${education._id}`);
         })
         .catch(next)
+};
+
+module.exports.delete = (req, res, next) => {
+    const { id } = req.params;
+
+    Education.findByIdAndDelete(id)
+        .then(() => {
+            res.redirect('/education');
+        })
+        .catch(next)
+}
+
+module.exports.create = (req, res, next) => {
+    res.render('education/create');
+}
+
+module.exports.doCreate = (req, res, next) => {
+    req.body.tech_stack = req.body.tech_stack.split(',')
+    req.body.responsibilities = req.body.responsibilities.split(',')
+
+    Education.create(req.body)
+        .then((education) => {
+            res.redirect(`/education/${education._id}`);
+        })
+        .catch(next);
 }
