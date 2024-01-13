@@ -6,3 +6,4 @@ function show_hide() {
       click.style.display = "none";
    }
 }
+

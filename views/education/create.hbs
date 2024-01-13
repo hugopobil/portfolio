@@ -1,0 +1,59 @@
+<div class="education__container">
+
+    <div class="return__button__container">
+        <div class="return__button__experience">
+            <a href="/education">Return</a>
+        </div>
+    </div>
+
+    <form class="edit__form" action="/education/create" method="POST">
+
+        <div class="form__input">   
+            <p for="institution">Institution</p>
+            <input type="text" name="institution" required>
+        </div>
+
+        <div class="form__input">
+            <p for="course">Course</p>
+            <input type="text" name="course" required>
+        </div>
+
+        <div class="form__input">
+            <p for="startDate">Tech Stack</p>
+            <input type="text" name="tech_stack" required>
+        </div>
+
+        <div class="form__input">
+            <p for="description">Description</p>
+            <textarea id="largeTextField" name="description" rows="10" cols="50"></textarea>
+
+        <div class="form__input">
+            <p for="largeText">Responsibilities</p>
+            <textarea id="largeTextField2" name="responsibilities" rows="10" cols="50"></textarea>
+        </div>
+
+        <div class="form__input">
+            <p for="startDate">Start Date</p>
+            <input type="text" name="startDate" id="startDate" required>
+        </div>
+
+        <div class="form__input">
+            <p for="endDate">End Date</p>
+            <input type="text" name="endDate" id="endDate" required>
+        </div>
+
+        <div class="form__input">
+            <p for="location">Location</p>
+            <input type="text" name="location" id="location" required>
+        </div>
+
+        <div class="form__input">
+            <p for="image">Image (use .png)</p>
+            <input type="text" name="image" id="image" value="/img/logos/">
+        </div>
+
+        <button class="download-cv-button" type="submit"><i data-feather="edit"></i>Create</button>
+
+    </form>
+
+</div>

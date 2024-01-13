@@ -19,21 +19,31 @@ router.get("/", (req, res, next) => {
 
 // education routes
 router.get("/education", educationController.list);
+router.get("/education/create", educationController.create);
+router.post("/education/create", educationController.doCreate);
 router.get("/education/:id", educationController.detail);
 router.get("/education/:id/edit", educationController.edit);
 router.post("/education/:id/edit", educationController.doEdit);
+router.get("/education/:id/delete", educationController.delete);
+
 
 // experience routes
 router.get("/professional_experience", experienceController.list);
+router.get("/professional_experience/create", experienceController.create);
+router.post("/professional_experience/create", experienceController.doCreate);
 router.get("/professional_experience/:id", experienceController.detail);
 router.get("/professional_experience/:id/edit", experienceController.edit);
 router.post("/professional_experience/:id/edit", experienceController.doEdit);
+router.get("/professional_experience/:id/delete", experienceController.delete);
+
 
 // projects routes
 router.get("/projects", projectController.list);
+router.get("/projects/create", projectController.create);
 router.get("/projects/:tech", projectController.filter);
 router.get("/projects/:id/edit", projectController.edit);
 router.post("/projects/:id/edit", projectController.doEdit);
+router.get("/projects/:id/delete", projectController.delete);
 
 // references routes
 router.get("/references", referenceController.list);
