@@ -9,9 +9,10 @@
             "description" : "Web Development Bootcamp Course",
             "responsibilities" : [
                 "Developing full-stack web applications",
-                "Working in a team of 3 people to develop a full-stack web application",
+                "Working in a team of 2 people to develop a full-stack web application",
                 "Working with aprint and agile methodologies",
-                "Developing a final project using MERN stack"
+                "Developing a final project using MERN stack",
+                "Developing projects with DOM manipulation, AJAX, APIs, Node.js, Express, MongoDB, React, etc."
             ],
             "startDate" : "1st Sept 2022",
             "endDate" : "31st March 2023",

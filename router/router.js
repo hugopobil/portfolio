@@ -40,6 +40,7 @@ router.get("/professional_experience/:id/delete", experienceController.delete);
 // projects routes
 router.get("/projects", projectController.list);
 router.get("/projects/create", projectController.create);
+router.post("/projects/create", projectController.doCreate);
 router.get("/projects/:tech", projectController.filter);
 router.get("/projects/:id/edit", projectController.edit);
 router.post("/projects/:id/edit", projectController.doEdit);

@@ -53,3 +53,13 @@ module.exports.delete = (req, res, next) => {
 module.exports.create = (req, res, next) => {
     res.render('projects/create');
 }
+
+module.exports.doCreate = (req, res, next) => {
+    req.body.tech_stack = req.body.tech_stack.split(',')
+
+    Project.create(req.body)
+        .then((project) => {
+            res.redirect(`/projects`);
+        })
+        .catch((err) => next(err));
+}
